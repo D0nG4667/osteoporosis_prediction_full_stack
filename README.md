@@ -133,19 +133,12 @@ uv venv
 source .venv/bin/activate  # or .venv\Scripts\activate on Windows
 
 # 3. Install dependencies
+uv sync
+or
+uv pip install .
+or 
 uv pip install -r requirements.txt
-
-# 4. Run the main pipeline
-uv run main.py
 ```
-
-### 🧩 Optional: Lock Dependencies
-
-```bash
-uv pip compile pyproject.toml -o uv.lock
-```
-
----
 
 ## 🧠 Evaluation Metrics
 
@@ -194,6 +187,18 @@ git push origin feature/your-feature-name
 
 ## 📬 Contact
 
-**Author:** Gabriel Osasumwen Okundaye
-**Role:** Data & AI Consultant | Healthcare Data Scientist
-**LinkedIn:** [Gabriel Okundaye](https://linkedin.com/in/gabrielokundaye)
+**Author:** Gabriel Okundaye
+
+**Role:** Data & AI Consultant
+
+**LinkedIn:** [Gabriel Okundaye](https://www.linkedin.com/in/dr-gabriel-okundaye/)
+
+---
+
+## ⭐️ Show your support
+
+If you like this project kindly show some love, give it a 🌟 **STAR** 🌟. Thank you!
+
+## 📝 License
+
+This project is [MIT](/LICENSE) licensed.
