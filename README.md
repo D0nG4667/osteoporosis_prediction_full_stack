@@ -12,6 +12,10 @@ The project leverages **Python**, **scikit-learn**, and **FastAPI**, using **`uv
 
 ---
 
+### Notebook size too big for GitHub?
+
+- Preview here on Google Collab [osteoporosis.ipynb](https://colab.research.google.com/github/D0nG4667/osteoporosis_full_stack/blob/main/dev/notebooks/osteoporosis.ipynb)
+
 ## 🧩 Key Features
 
 * 🔬 **Feature Engineering before Preprocessing**
@@ -59,7 +63,6 @@ The project leverages **Python**, **scikit-learn**, and **FastAPI**, using **`uv
   └── client/
 - utils/
 - LICENSE
-- main.py
 - pyproject.toml
 - README.md
 - requirements.txt
@@ -108,7 +111,7 @@ The project leverages **Python**, **scikit-learn**, and **FastAPI**, using **`uv
 
 ### 4️⃣ Deployment
 
-* Model serialized with `joblib` or `pickle`.
+* Model serialized with `joblib`.
 * Exposed via FastAPI endpoints for inference.
 * Ready for containerization (Docker optional).
 

@@ -214,3 +214,4 @@ catboost_info/
 *.docx
 *.zip
 *.tar.gz
+*huggingface*
