@@ -14,7 +14,7 @@ The project leverages **Python**, **scikit-learn**, and **FastAPI**, using **`uv
 
 ### Notebook size too big for GitHub?
 
-- Preview here on Google Collab [osteoporosis.ipynb](https://colab.research.google.com/github/D0nG4667/osteoporosis_full_stack/blob/main/dev/notebooks/osteoporosis.ipynb)
+- Preview here on Google Collab [osteoporosis.ipynb](https://colab.research.google.com/github/D0nG4667/osteoporosis_prediction_full_stack/blob/main/dev/notebooks/osteoporosis.ipynb)
 
 ## 🧩 Key Features
 
